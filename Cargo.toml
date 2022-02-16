@@ -1,0 +1,17 @@
+[package]
+name = "nanocbor-rs"
+version = "0.1.0"
+authors = ["Kaspar Schleiser <kaspar@schleiser.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.4.3"
+funty = { version = "1.2", default-features = false }
+
+[dev-dependencies]
+base64 = "0.13.0"
+serde = { version = "1.0.136", features = ["derive"] }
+serde_json = "1.0.78"
+
